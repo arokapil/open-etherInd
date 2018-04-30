@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/feeleep75/open-etherInd/rpc"
-	"github.com/feeleep75/open-etherInd/util"
+	"github.com/arokapil/open-etherInd/rpc"
+	"github.com/arokapil/open-etherInd/util"
 )
 
 // Allow only lowercase hexadecimal with 0x prefix

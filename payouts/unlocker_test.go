@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/feeleep75/open-etherInd/rpc"
-	"github.com/feeleep75/open-etherInd/storage"
+	"github.com/arokapil/open-etherInd/rpc"
+	"github.com/arokapil/open-etherInd/storage"
 )
 
 func TestMain(m *testing.M) {

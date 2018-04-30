@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"gopkg.in/redis.v3"
 
-	"github.com/feeleep75/open-etherInd/util"
+	"github.com/arokapil/open-etherInd/util"
 )
 
 type Config struct {

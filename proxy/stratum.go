@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/feeleep75/open-etherInd/util"
+	"github.com/arokapil/open-etherInd/util"
 )
 
 const (
