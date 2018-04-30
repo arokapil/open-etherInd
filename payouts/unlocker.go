@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/feeleep75/open-etherind/rpc"
-	"github.com/feeleep75/open-etherind/storage"
-	"github.com/feeleep75/open-etherind/util"
+	"github.com/feeleep75/open-etherInd/rpc"
+	"github.com/feeleep75/open-etherInd/storage"
+	"github.com/feeleep75/open-etherInd/util"
 )
 
 type UnlockerConfig struct {

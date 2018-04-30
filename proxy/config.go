@@ -1,10 +1,10 @@
 package proxy
 
 import (
-	"github.com/feeleep75/open-etherind/api"
-	"github.com/feeleep75/open-etherind/payouts"
-	"github.com/feeleep75/open-etherind/policy"
-	"github.com/feeleep75/open-etherind/storage"
+	"github.com/feeleep75/open-etherInd/api"
+	"github.com/feeleep75/open-etherInd/payouts"
+	"github.com/feeleep75/open-etherInd/policy"
+	"github.com/feeleep75/open-etherInd/storage"
 )
 
 type Config struct {

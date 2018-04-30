@@ -11,10 +11,10 @@ fi
 workspace="$PWD/build/_workspace"
 root="$PWD"
 ethdir="$workspace/src/github.com/feeleep75"
-if [ ! -L "$ethdir/open-etherind" ]; then
+if [ ! -L "$ethdir/open-etherInd" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. open-etherind
+    ln -s ../../../../../. open-etherInd
     cd "$root"
 fi
 
@@ -25,8 +25,8 @@ GOBIN="$PWD/build/bin"
 export GOPATH GOBIN
 
 # Run the command inside the workspace.
-cd "$ethdir/open-etherind"
-PWD="$ethdir/open-etherind"
+cd "$ethdir/open-etherInd"
+PWD="$ethdir/open-etherInd"
 
 # Launch the arguments with the configured environment.
 exec "$@"

@@ -14,7 +14,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/feeleep75/open-etherind/util"
+	"github.com/feeleep75/open-etherInd/util"
 )
 
 type RPCClient struct {

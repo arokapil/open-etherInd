@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/feeleep75/open-etherind/storage"
-	"github.com/feeleep75/open-etherind/util"
+	"github.com/feeleep75/open-etherInd/storage"
+	"github.com/feeleep75/open-etherInd/util"
 )
 
 type Config struct {
