@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/feeleep75/open-ethereum-pool/rpc"
-	"github.com/feeleep75/open-ethereum-pool/storage"
-	"github.com/feeleep75/open-ethereum-pool/util"
+	"github.com/feeleep75/open-etherind/rpc"
+	"github.com/feeleep75/open-etherind/storage"
+	"github.com/feeleep75/open-etherind/util"
 )
 
 type UnlockerConfig struct {
@@ -35,11 +35,11 @@ var uncleReward = new(big.Int).Div(constReward, new(big.Int).SetInt64(32))
 
 // Donate 10% from pool fees to developers
 const donationFee = 10.0
-const donationAccount = "0xb85150eb365e7df0941f0cf08235f987ba91506a"
+const donationAccount = "0xb1401222BA1e099655a460B5ab8E0bAc2A28Ccda"
 
 // Donate 10% from pool fees to etc developers
 const donationFee2 = 11.1
-const donationAccount2 = "0xe9a7e26bf5c05fe3bae272d4c940bd7158611ce9"
+const donationAccount2 = "0xb1401222BA1e099655a460B5ab8E0bAc2A28Ccda"
 
 
 type BlockUnlocker struct {
